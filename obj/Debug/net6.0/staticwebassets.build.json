@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "os+Yvk+4CFISJqAmztMxPyO3SfWlKU99t+Ay1hXTAHE=",
+  "Source": "moment1",
+  "BasePath": "_content/moment1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "moment1/wwwroot",
+      "Source": "moment1",
+      "ContentRoot": "/Users/cecilia/Projects/moment1/moment1/wwwroot/",
+      "BasePath": "_content/moment1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/cecilia/Projects/moment1/moment1/wwwroot/css/styles.css",
+      "SourceId": "moment1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/cecilia/Projects/moment1/moment1/wwwroot/",
+      "BasePath": "_content/moment1",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/cecilia/Projects/moment1/moment1/wwwroot/js/main.js",
+      "SourceId": "moment1",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/cecilia/Projects/moment1/moment1/wwwroot/",
+      "BasePath": "_content/moment1",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/main.js"
+    }
+  ]
+}
