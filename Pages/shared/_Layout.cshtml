@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+@{
+    var date = DateTime.Now.ToString("yyyy-MM-dd");
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+            <header>
+                <div class="header">
+                    <ul class="header">
+                        <li class="logotype">Logo</li>
+                        <li class="date">Dagens datum: @date</li>
+                    </ul>
+                </div>
+            </header>
+            <div class="left-col">
+                <nav>
+                    <ul>
+                        <li><a href="/">Start</a></li>
+                        <li><a href="/razor">Razor</a></li>
+                        <li><a href="/about">Om sidan</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <footer>
+            <p>Av Cecilia Wendin - Kontakt: cewe1800@student.miun.se</p>
+        </footer>
+      
+        @RenderBody()
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
